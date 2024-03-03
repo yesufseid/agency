@@ -7,6 +7,8 @@ import "aos/dist/aos.css";
 import BrandsLogo from './components/BrandsLogo/Brand';
 import Services from './components/Service';
 import Testimonial from './components/Testimanial';
+import Blog from "./components/Blogs/BlogsComp"
+import Footer from './components/Footer';
 
 function App() {
   useEffect(() => {
@@ -27,6 +29,8 @@ function App() {
          <BrandsLogo />
          <Services />
          <Testimonial />
+         <Blog />
+         <Footer />
       </div>
      
     </>
